@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acme Web Studio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><span class="logo">AWS</span><span>Acme Web Studio</span></div>
+      <nav class="menu">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <h1>Launch your presence with a clean, fast site</h1>
+        <p>We craft responsive, accessible layouts using semantic HTML and modern CSS.</p>
+        <a class="btn" href="#contact">Get Started</a>
+      </div>
+      <div class="card">
+        <h3>Why Us?</h3>
+        <ul>
+          <li>Pixel-perfect responsive design</li>
+          <li>Performance-first CSS</li>
+          <li>Accessible by default</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="container grid-3">
+      <div class="card"><h3>Speed</h3><p>Minimal CSS, optimized structure.</p></div>
+      <div class="card"><h3>SEO</h3><p>Semantic HTML & meta tags.</p></div>
+      <div class="card"><h3>Design</h3><p>Clean, modern, and consistent.</p></div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <div class="container grid-3">
+      <div class="card">
+        <h3>Starter</h3><p>Single page</p><p><strong>$0</strong></p><a class="btn-sm" href="#contact">Choose</a>
+      </div>
+      <div class="card">
+        <h3>Pro</h3><p>Multi-section</p><p><strong>$0</strong></p><a class="btn-sm" href="#contact">Choose</a>
+      </div>
+      <div class="card">
+        <h3>Custom</h3><p>Tailored layout</p><p><strong>$0</strong></p><a class="btn-sm" href="#contact">Choose</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="card">
+        <h3>Contact</h3>
+        <form onsubmit="return false">
+          <label>Name <input type="text" required/></label>
+          <label>Email <input type="email" required/></label>
+          <label>Message <textarea rows="4" required></textarea></label>
+          <button class="btn" type="submit" title="UI only">Send</button>
+          <p class="note">*UI only, no backend.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container"><p>© Acme Web Studio</p></div>
+  </footer>
+</body>
+</html>
